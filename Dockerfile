@@ -10,5 +10,4 @@ COPY target/CseKuber1-0.0.1-SNAPSHOT.jar /app/cse.jar
 # Step 4: Expose the port your application runs on
 EXPOSE 8085
 
-# Step 5: Define the command to run your Spring Boot application
 CMD ["java", "-jar", "/app/cse.jar"]
