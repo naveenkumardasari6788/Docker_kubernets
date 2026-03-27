@@ -3,10 +3,9 @@ kind: Service
 metadata:
   name: springboot-service
 spec:
-  type: NodePort
+  type: ClusterIP 
   selector:
     app: csekub-app
   ports:
     - port: 8085
       targetPort: 8085
-      nodePort: 30007
