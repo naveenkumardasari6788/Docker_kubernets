@@ -16,4 +16,4 @@ spec:
       - name: springboot-container
         image: naveenkumar6788/csekub:latest
         ports:
-        - containerPort: 8085
+        - containerPort: 8089
