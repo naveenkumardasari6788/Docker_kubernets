@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CSECONTROLLER {
 	@GetMapping("/cse/home")
 	public String rocks() {
-		return "WELCOME TO CSE KUBERNETES";
+		return "WELCOME TO OPENSHIFT";
 	}
 }
 	
